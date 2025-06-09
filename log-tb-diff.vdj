@@ -1,0 +1,9 @@
+#!vd -p
+{"sheet": "", "col": "log_3pi", "row": "", "longname": "addcol-expr", "input": "log_3pi - lin_3pi", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_3pi - lin_3pi", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_3pi - lin_3pi", "row": "", "longname": "rename-col", "input": "diff_3pi", "comment": "rename current column"}
+{"sheet": "", "col": "diff_3pi", "row": "", "longname": "addcol-expr", "input": "diff_3pi > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_5pi", "row": "", "longname": "addcol-expr", "input": "log_5pi - lin_5pi", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_5pi - lin_5pi", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_5pi - lin_5pi", "row": "", "longname": "rename-col", "input": "diff_5pi", "comment": "rename current column"}
+{"sheet": "", "col": "diff_5pi", "row": "", "longname": "addcol-expr", "input": "diff_5pi > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}

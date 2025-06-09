@@ -1,0 +1,3 @@
+#!vd -p
+{"sheet": "", "col": "log_c", "row": "", "longname": "addcol-expr", "input": "\"lin s\" if lin_s > log_s and lin_s > lin_c and lin_s > log_c else \"log s\" if log_s > lin_c and log_s > log_c else \"lin c\" if lin_c > log_c else \"log c\"", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "\"lin s\" if lin_s > log_s and lin_s > lin_c and lin_s > log_c else \"log s\" if log_s > lin_c and log_s > log_c else \"lin c\" if lin_c > log_c else \"log c\"", "row": "", "longname": "rename-col", "input": "highest_value", "comment": "rename current column"}

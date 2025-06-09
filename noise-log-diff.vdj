@@ -1,0 +1,14 @@
+#!vd -p
+{"sheet": "", "col": "log_no", "row": "", "longname": "addcol-expr", "input": "log_no - lin_no", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_no - lin_no", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_no - lin_no", "row": "", "longname": "rename-col", "input": "diff_no", "comment": "rename current column"}
+{"sheet": "", "col": "diff_no", "row": "", "longname": "addcol-expr", "input": "diff_no > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_24", "row": "", "longname": "addcol-expr", "input": "log_24 - lin_24", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_24 - lin_24", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_24 - lin_24", "row": "", "longname": "rename-col", "input": "diff_24", "comment": "rename current column"}
+{"sheet": "", "col": "diff_24", "row": "", "longname": "addcol-expr", "input": "diff_24 > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_71", "row": "", "longname": "addcol-expr", "input": "log_71 - lin_71", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_71 - lin_71", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_71 - lin_71", "row": "", "longname": "rename-col", "input": "diff_71", "comment": "rename current column"}
+{"sheet": "", "col": "diff_71", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "diff_71", "row": "", "longname": "addcol-expr", "input": "diff_71 > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}

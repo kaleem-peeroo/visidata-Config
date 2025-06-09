@@ -1,0 +1,10 @@
+import dedupe
+import guess_type
+
+options.quitguard = True
+options.save_filetype = "tsv"
+options.color_key_col = "114 green"
+options.default_width = 30
+options.force_256_colors = False
+options.disp_float_fmt = "{:.4f}"
+

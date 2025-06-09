@@ -1,0 +1,13 @@
+#!vd -p
+{"sheet": "", "col": "log_no", "row": "", "longname": "addcol-expr", "input": "log_no-lin_no", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_no-lin_no", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_no-lin_no", "row": "", "longname": "rename-col", "input": "diff_no", "comment": "rename current column"}
+{"sheet": "", "col": "diff_no", "row": "", "longname": "addcol-expr", "input": "diff_no > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_6", "row": "", "longname": "addcol-expr", "input": "log_6 - lin_6", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_6 - lin_6", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_6 - lin_6", "row": "", "longname": "rename-col", "input": "diff_6", "comment": "rename current column"}
+{"sheet": "", "col": "diff_6", "row": "", "longname": "addcol-expr", "input": "diff_6 > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_8", "row": "", "longname": "addcol-expr", "input": "log_8-lin_8", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "log_8-lin_8", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "log_8-lin_8", "row": "", "longname": "rename-col", "input": "diff_8", "comment": "rename current column"}
+{"sheet": "", "col": "diff_8", "row": "", "longname": "addcol-expr", "input": "diff_8 > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}

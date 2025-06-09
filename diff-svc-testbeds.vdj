@@ -1,0 +1,11 @@
+#!vd -p
+{"sheet": "", "col": "c_3pi", "row": "", "longname": "addcol-expr", "input": "c_3pi - s_3pi", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "c_3pi - s_3pi", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "c_3pi - s_3pi", "row": "", "longname": "rename-col", "input": "diff_3pi", "comment": "rename current column"}
+{"sheet": "", "col": "diff_3pi", "row": "", "longname": "addcol-expr", "input": "diff_3pi > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "c_5pi", "row": "", "longname": "addcol-expr", "input": "c_5pi - s_5pi", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "c_5pi - s_5pi", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "c_5pi - s_5pi", "row": "", "longname": "rename-col", "input": "diff_5pi", "comment": "rename current column"}
+{"sheet": "", "col": "diff_5pi", "row": "", "longname": "addcol-expr", "input": "diff_5pi > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "diff_5pi > 0", "row": "", "longname": "addcol-expr", "input": "\"5PI\" if diff_5pi > diff_3pi and diff_5pi > 0 else \"3PI\" if diff_3pi > 0 else \"None\"", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "\"5PI\" if diff_5pi > diff_3pi and diff_5pi > 0 else \"3PI\" if diff_3pi > 0 else \"None\"", "row": "", "longname": "rename-col", "input": "higher_positive_diff", "comment": "rename current column"}

@@ -1,0 +1,18 @@
+#!vd -p
+{"sheet": "", "col": "r2_train_tfm", "row": "", "longname": "addcol-expr", "input": "r2_train_tfm - r2_train", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_train_tfm - r2_train", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_train_tfm - r2_train", "row": "", "longname": "rename-col", "input": "r2_train_diff", "comment": "rename current column"}
+{"sheet": "", "col": "r2_train_diff", "row": "", "longname": "addcol-expr", "input": "r2_train_diff > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_test_tfm", "row": "", "longname": "addcol-expr", "input": "r2_test_tfm - r2_test", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_test_tfm - r2_test", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_test_tfm - r2_test", "row": "", "longname": "rename-col", "input": "r2_test_diff", "comment": "rename current column"}
+{"sheet": "", "col": "r2_test_diff", "row": "", "longname": "addcol-expr", "input": "r2_test_diff > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_val_tfm", "row": "", "longname": "addcol-expr", "input": "r2_val_tfm - r2_val", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_val_tfm - r2_val", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_val_tfm - r2_val", "row": "", "longname": "rename-col", "input": "r2_val_diff", "comment": "rename current column"}
+{"sheet": "", "col": "r2_val_diff", "row": "", "longname": "addcol-expr", "input": "r2_val_diff > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_out_tfm", "row": "", "longname": "addcol-expr", "input": "r2_out_tfm - r2_out", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_out_tfm - r2_out", "row": "", "longname": "type-currency", "input": "", "keystrokes": "$", "comment": "set type of current column to currency"}
+{"sheet": "", "col": "r2_out_tfm - r2_out", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_out_tfm - r2_out", "row": "", "longname": "rename-col", "input": "r2_out_diff", "comment": "rename current column"}
+{"sheet": "", "col": "r2_out_diff", "row": "", "longname": "addcol-expr", "input": "r2_out_diff > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}

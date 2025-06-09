@@ -1,0 +1,6 @@
+#!vd -p
+{"sheet": "", "col": "", "row": "\u30advariable", "longname": "delete-row", "input": "", "keystrokes": "d", "comment": "delete current row"}
+{"sheet": "", "col": "errors", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "nulls", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "distinct", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "sum", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}

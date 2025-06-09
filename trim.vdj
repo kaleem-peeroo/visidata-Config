@@ -1,0 +1,8 @@
+#!vd -p
+{"sheet": "", "col": "errors", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "nulls", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "distinct", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "sum", "row": "", "longname": "hide-col", "input": "", "keystrokes": "-", "comment": "hide the current column"}
+{"sheet": "", "col": "column", "row": "", "longname": "select-col-regex", "input": {"regex": "diff", "flags": "I"}, "keystrokes": "|", "comment": "select rows matching regex in current column"}
+{"sheet": "", "col": "", "row": "", "longname": "delete-selected", "input": "", "keystrokes": "gd", "comment": "delete selected rows"}
+{"sheet": "", "col": "", "row": "\u30advariable", "longname": "delete-row", "input": "", "keystrokes": "d", "comment": "delete current row"}

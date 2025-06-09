@@ -1,0 +1,13 @@
+#!vd -p
+{"sheet": "", "col": "r2_train_tfm", "row": "", "longname": "addcol-expr", "input": "r2_train_tfm - r2_train", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_train_tfm - r2_train", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_train_tfm - r2_train", "row": "", "longname": "rename-col", "input": "train_diff", "comment": "rename current column"}
+{"sheet": "", "col": "r2_test_tfm", "row": "", "longname": "addcol-expr", "input": "r2_test_tfm - r2_test", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_test_tfm - r2_test", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_test_tfm - r2_test", "row": "", "longname": "rename-col", "input": "test_diff", "comment": "rename current column"}
+{"sheet": "", "col": "r2_val_tfm", "row": "", "longname": "addcol-expr", "input": "r2_val_tfm - r2_val", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_val_tfm - r2_val", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_val_tfm - r2_val", "row": "", "longname": "rename-col", "input": "val_diff", "comment": "rename current column"}
+{"sheet": "", "col": "train_diff", "row": "", "longname": "addcol-expr", "input": "train_diff > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "test_diff", "row": "", "longname": "addcol-expr", "input": "test_diff > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "val_diff", "row": "", "longname": "addcol-expr", "input": "val_diff > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}

@@ -1,0 +1,19 @@
+#!vd -p
+{"sheet": "", "col": "train_c", "row": "", "longname": "addcol-expr", "input": "train_c - train_s", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "train_c - train_s", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "train_c - train_s", "row": "", "longname": "rename-col", "input": "diff_train", "comment": "rename current column"}
+{"sheet": "", "col": "diff_train", "row": "", "longname": "addcol-expr", "input": "diff_train > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "test_c", "row": "", "longname": "addcol-expr", "input": "test_c - test_s", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "test_c - test_s", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "test_c - test_s", "row": "", "longname": "rename-col", "input": "diff_test", "comment": "rename current column"}
+{"sheet": "", "col": "diff_test", "row": "", "longname": "addcol-expr", "input": "diff_test > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "val_c", "row": "", "longname": "addcol-expr", "input": "val_c - val_s", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "val_c - val_s", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "val_c - val_s", "row": "", "longname": "rename-col", "input": "diff_val", "comment": "rename current column"}
+{"sheet": "", "col": "diff_val", "row": "", "longname": "addcol-expr", "input": "diff_val > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "out_c", "row": "", "longname": "addcol-expr", "input": "=out_c - out_s", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "out_c", "row": "", "longname": "addcol-expr", "input": "out_c - out_s", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "out_c - out_s", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "out_c - out_s", "row": "", "longname": "rename-col", "input": "out_diff", "comment": "rename current column"}
+{"sheet": "", "col": "out_diff", "row": "", "longname": "rename-col", "input": "diff_out", "comment": "rename current column"}
+{"sheet": "", "col": "diff_out", "row": "", "longname": "addcol-expr", "input": "diff_out > 0", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}

@@ -1,0 +1,7 @@
+#!vd -p
+{"sheet": "", "col": "name", "row": "\u30ad5pi 71 lat lin_r2_train", "longname": "edit-cell", "input": "train_s", "keystrokes": "e", "comment": "edit contents of current cell"}
+{"sheet": "", "col": "name", "row": "\u30ad5pi 71 lat lin_r2_test", "longname": "edit-cell", "input": "test_s", "keystrokes": "e", "comment": "edit contents of current cell"}
+{"sheet": "", "col": "name", "row": "\u30ad5pi 71 lat lin_r2_val", "longname": "edit-cell", "input": "val_s", "keystrokes": "e", "comment": "edit contents of current cell"}
+{"sheet": "", "col": "name", "row": "\u30ad5pi 71 lat lin c_r2_train", "longname": "edit-cell", "input": "train_c", "keystrokes": "e", "comment": "edit contents of current cell"}
+{"sheet": "", "col": "name", "row": "\u30ad5pi 71 lat lin c_r2_test", "longname": "edit-cell", "input": "test_c", "keystrokes": "e", "comment": "edit contents of current cell"}
+{"sheet": "", "col": "name", "row": "\u30ad5pi 71 lat lin c_r2_val", "longname": "edit-cell", "input": "val_c", "keystrokes": "e", "comment": "edit contents of current cell"}

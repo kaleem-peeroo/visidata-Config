@@ -1,0 +1,5 @@
+#!vd -p
+{"sheet": "", "col": "r2_train_tfm", "row": "", "longname": "addcol-expr", "input": "r2_train_tfm - r2_train", "keystrokes": "=", "comment": "create new column from Python expression, with column names as variables"}
+{"sheet": "", "col": "r2_train_tfm - r2_train", "row": "", "longname": "type-float", "input": "", "keystrokes": "%", "comment": "set type of current column to float"}
+{"sheet": "", "col": "r2_train_tfm - r2_train", "row": "\u30adtotal_mbps_over_subs_0%", "longname": "edit-cell", "input": "", "keystrokes": "e", "comment": "edit contents of current cell"}
+{"sheet": "", "col": "r2_train_tfm - r2_train", "row": "", "longname": "rename-col", "input": "r2 train diff", "comment": "rename current column"}
